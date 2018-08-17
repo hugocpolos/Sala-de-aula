@@ -1,0 +1,27 @@
+Estudo em cima do banco de dados db/banco.db:
+Será utilizado SQLlite. SQLiteStudio.
+As respostas podem ser commitadas na pasta Respostas tanto com imagens
+quanto com código.
+
+
+
+Parte 1: Criando Views de um banco de dados. (Ou, uma aula de SELECT)
+
+	1  - Contrua uma view que exiba toda a tabela TRACKS.
+	2  - Contrua uma view que exiba toda a tabela GENRES.
+	3  - Compare as duas views, existe um campo em comum. Qual é?
+	4  - Com a informação das questões 1,2 e 3. Crie uma view da tabela TRACKS
+		 com apenas músicas do gênero Heavy Metal.
+	5  - Com as informações das questões 1,2 e 3. Crie uma view da tabela TRACKS
+		 com apenas músicas de Reggae OU Blues.
+	6  - Crie uma view da tabela TRACKS com todas as faixas exceto as do gênero Rock.
+	7  - Crie uma view da tabela TRACKS apenas com faixas que tenham o compositor.
+	8  - Crie uma view da tabela TRACKS apenas com faixas com mais de 10 minutos.
+	9  - Quantas músicas tem mais de 10 minutos?
+	10 - Quantas músicas tem mais de 10 minutos e são do genêro pop?
+	11 - Qual a duração média de uma música pop?
+	12 - Qual o gênero musical com músicas com maior duração média?
+
+Parte 2: 
+	Após finalização da parte 1.
+			
