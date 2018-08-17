@@ -1,0 +1,49 @@
+/*Questão 1*/
+
+SELECT * FROM TRACKS;
+
+/* Questão 2*/
+
+SELECT * FROM GENRES;
+
+-- Questão 3
+
+/* GenreId
+*/
+
+-- Questão 4
+
+SELECT * FROM TRACKS WHERE GenreId = 13
+
+-- Questão 5
+
+SELECT * FROM TRACKS WHERE GenreId =8 or GenreId =6
+
+-- Questão 6
+
+SELECT * FROM TRACKS WHERE GenreId <>1
+
+-- Questão 7
+
+SELECT * FROM TRACKS WHERE COMPOSER <>' '
+
+-- Questão 8
+
+SELECT * FROM TRACKS WHERE Milliseconds > 600000
+
+-- Questão 9
+
+SELECT COUNT (NAME) FROM TRACKS WHERE MILLISECONDS > 600000
+
+-- Questão 10
+
+SELECT COUNT (NAME) FROM TRACKS WHERE MILLISECONDS > 600000 AND GENREID =9
+
+-- Questão 11
+
+SELECT AVG (MILLISECONDS) FROM TRACKS WHERE GENREID =6
+
+
+
+
+
